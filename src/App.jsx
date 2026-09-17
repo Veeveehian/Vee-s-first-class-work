@@ -1,4 +1,8 @@
 import React from 'react'
+import card1 from './assets/Student1.jpg'
+import card2 from './assets/Student2.jpg'
+import card3 from './assets/Student3.jpg'
+import confusion from './assets/Confusion.jpg'
 
 const App = () => {
   return (
@@ -39,7 +43,7 @@ const App = () => {
             <a href="./classNameES.html" className="btn">Explore classNamees</a>
           </div>
           <div className="about-image">
-            <img src="../../Downloads/Confusion.jpg" alt="Image" />
+            <img src={confusion} alt='fgjdfjdy' />
           </div>
          </section>
           {/* <!-- TESTIMONIAL CARD --> */}
@@ -48,17 +52,17 @@ const App = () => {
           <h2>Feedbacks From Our Students</h2>
           <div className="testiomial-continer">
           <div className="card">
-            <img src="../../Downloads/Student1.jpg" alt="Student One"/>
+            <img src={card1} alt="alt" />
             <h3>John Daniel</h3>
             <p>"This academy completely changed my career. I learned web development from scratch and got my first tech job."</p>
           </div>
           <div className="card">
-            <img src="../../Downloads/Student2.jpg" alt="Student Two"/>
+            <img src={card2} alt='jkgiig' />
             <h3>Grace Michael</h3>
             <p>"The classNamees were practical and easy to follow. Every lesson helped me become more confident."</p>
           </div>
           <div className="card">
-            <img src="../../Downloads/Student4.jpg" alt="Student Three"/>
+            <img src={card3} alt='jkgiig' />
             <h3>David Smith</h3>
             <p>"One of the best learning experiences I've ever had. The instructors were amazing and supportive."</p>
           </div>
