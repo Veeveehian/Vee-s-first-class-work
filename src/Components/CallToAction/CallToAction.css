@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* CALL TO ACTION */
+.cta{
+    background-color: lightblue;
+    padding: 80px 10%;
+    text-align: center;
+}
+.cta-content h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.cta-content p{
+    color: #555;
+    margin-bottom: 30px;
+}
+.cta-content a{
+    background: rgb(2, 53, 69);
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+.cta-content a:hover{
+    color: red;
+    background: white;
+}
+.footer{
+    background-color: #111;
+    color: white;
+    padding: 60px 10% 20px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
