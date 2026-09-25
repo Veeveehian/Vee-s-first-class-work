@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contactContainer{
+    width: 100%;
+     display: flex;
+     gap: 180px;
+
+}
+.contactContent{
+   background-color: rgb(1, 54, 132);
+   width: 40%;
+}
+.contactUs h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 85px;
+}
+.contactUs p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 540;
+    line-height: 25px;
+    padding-left: 85px;
+    padding-bottom: 40px;
+}
+.contactUs button{
+    background-color: rgb(21, 193, 98);
+    margin-left: 85px;
+    padding: 14px 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.contactUs button:hover{
+    transform: translateY(-4px);
+    transition: 0.5s ease;
+}
+.Address{
+    color: white;
+    padding-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Address h2{
+    padding-bottom: 19px;
+}
+.Address p{
+    font-size: 16px;
+    font-weight: 540;
+    line-height: 25px;
+    padding-bottom: 55px;
+}
+.GIT{
+    padding-left: 85px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.GIT h2{
+    padding-bottom: 19px;
+}
+.p1{
+    padding-bottom: 15px;
+}
+.p2{
+    padding-bottom: 50px;
+}
+.Icons{
+    padding-left: 85px;
+    padding-bottom: 70px;
+    display: flex;
+    gap: 20px;
+}
+.Icons a{
+    color: white;
+    font-size: 13px;
+}
+.formContainer{
+    padding-top: 80px;
+    width: 50%;
+    max-width: 850px;
+}
+.form input{
+    text-align: left;
+    width: 70%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+     border:1.5px solid blue;
+}
+.form textarea{
+    text-align: left;
+    width: 70%;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border:1px solid blue;
+}
+.form button{
+    background-color: rgb(21, 193, 98);
+    padding: 14px 20px;
+    width: 76%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: transform 0.5s ease;
+}
+.form button:hover{
+    transform: scale(1.1);
+    background-color: blue;
+    
+}
+
+
+@media(max-width: 768px) {
+    .contactContainer{
+        flex-direction: column;
+        /* padding: 0px 7%; */
+        gap: 35px;
+        text-align: center;
+    }
+
+    .contactContent{
+   background-color: rgb(1, 54, 132);
+   width: 100%;
+}
+.contactUs h1{
+    padding-left: 35px;
+    font-size: 40px;
+}
+.contactUs p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 35px;
+    margin-bottom: 1px;
+}
+.contactUs button{
+    margin-left: 35px;
+    padding: 12px 15px;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.Address{
+    padding-left: 35px;
+}
+.Address h2{
+    padding-bottom: 19px;
+}
+.Address p{
+    font-size: 14px;
+}
+.GIT{
+    padding-left: 35px;
+}
+.Icons{
+    padding-left: 180px;
+
+}
+.Icons a{
+    color: white;
+    font-size: 10px;
+}
+
+.formContainer{
+    padding-top: 80px;
+    width: 100%;
+    max-width: 850px;
+}
+.form input{
+    text-align: left;
+    width: 70%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+     border:1.5px solid blue;
+}
+.form textarea{
+    text-align: left;
+    width: 70%;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border:1px solid blue;
+}
+.form button{
+    background-color: rgb(21, 193, 98);
+    padding: 14px 20px;
+    width: 76%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: transform 0.5s ease;
+}
+.form button:hover{
+    transform: scale(1.1);
+    background-color: blue;
+    
+}
+}
