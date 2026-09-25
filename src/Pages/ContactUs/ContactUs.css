@@ -124,48 +124,52 @@
 @media(max-width: 768px) {
     .contactContainer{
         flex-direction: column;
-        /* padding: 0px 7%; */
         gap: 35px;
-        text-align: center;
+        width: 100%;
     }
 
     .contactContent{
    background-color: rgb(1, 54, 132);
    width: 100%;
+   text-align: center;
 }
 .contactUs h1{
-    padding-left: 35px;
-    font-size: 40px;
+    font-size: 34px;
+    padding-left: 10px;
 }
 .contactUs p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    padding-left: 35px;
     margin-bottom: 1px;
+    padding-left: 10px;
 }
 .contactUs button{
-    margin-left: 35px;
     padding: 12px 15px;
     font-size: 13px;
     font-weight: 550;
+    margin-left: 10px;
 }
-
 .Address{
-    padding-left: 35px;
+    padding-left: 10px;
 }
 .Address h2{
     padding-bottom: 19px;
 }
 .Address p{
-    font-size: 14px;
+    font-size: 13px;
 }
 .GIT{
-    padding-left: 35px;
+    padding-left: 10px;
 }
 .Icons{
-    padding-left: 180px;
+    padding-left: 150px;
 
+}
+.Icons{
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
 }
 .Icons a{
     color: white;
@@ -173,39 +177,8 @@
 }
 
 .formContainer{
-    padding-top: 80px;
     width: 100%;
-    max-width: 850px;
-}
-.form input{
-    text-align: left;
-    width: 70%;
-    padding: 20px 20px;
-    margin-bottom: 20px;
-     border:1.5px solid blue;
-}
-.form textarea{
-    text-align: left;
-    width: 70%;
-    padding: 30px 20px;
-    margin-bottom: 20px;
-    border:1px solid blue;
-}
-.form button{
-    background-color: rgb(21, 193, 98);
-    padding: 14px 20px;
-    width: 76%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 60px;
-    transition: transform 0.5s ease;
-}
-.form button:hover{
-    transform: scale(1.1);
-    background-color: blue;
-    
+    text-align: center;
 }
 }
+
