@@ -35,7 +35,7 @@ const AboutUs = () => {
              learning, still experimenting, and still discovering new things every <br/>
              day. This first website may not be perfect, but it represents where I <br/>
              started — and how far I'm willing to go. And this is only the beginning.</p>
-             <h3>Dike O. Vivian</h3>
+             <h3>Dike O. Vivian.</h3>
              <p>viviandyke0@gmail.com</p>
         </div>
         </div>
