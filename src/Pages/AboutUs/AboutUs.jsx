@@ -1,5 +1,5 @@
 import React from 'react'
-import './AboutUs.css'
+import "./AboutUs.css"
 import Founder from '../../assets/Founder.png'
 import NavBar from '../../Components/NavBar/NavBar';
 import Footer from '../../Components/Footer/Footer'
