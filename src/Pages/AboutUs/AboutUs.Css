@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.AboutHero{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Hero h1{
+    color: white;
+    padding-top: 180px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.AboutUs{
+    background-color: whitesmoke;
+}
+.About{
+    display: flex;
+    gap: 100px;
+}
+.AboutImg{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+Img{
+    width: 500px;
+}
+.AboutFounder{
+    padding-top: 100px;
+}
+.AboutFounder h1{
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+}
+.bio{
+    font-size: 18px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+    color: rgb(85, 84, 84);
+}
+.AboutFounder p{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 84, 84);
+}
+.AboutFounder h3{
+    color: rgb(16, 64, 148);
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+@media(max-width: 768px) {
+.AboutHero{
+    height: 70vh;
+    width: 100% ;
+}
+.Hero h1{
+    padding-top: 100px;
+    padding-left: 110px;
+    font-size: 30px;
+}
+.AboutUs{
+    background-color: whitesmoke;
+}
+.About{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.AboutImg{
+    padding-left: 0px;
+}
+Img{
+    width: 380px;
+}
+.AboutFounder{
+    padding-top: 0px;
+}
+.AboutFounder h1{
+    padding-bottom: 15px;
+      padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.AboutFounder p{
+    font-size: 17px;
+     padding-left: 20px;
+    padding-right: 20px;
+}
+.AboutFounder h3{
+      padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+}
