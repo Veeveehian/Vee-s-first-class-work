@@ -1,8 +1,8 @@
 import React from 'react'
-import "./AboutUs.css";
 import Founder from '../../assets/Founder.png'
-import NavBar from '../../Components/NavBar/NavBar';
+import NavBar from '../../Components/NavBar/NavBar'
 import Footer from '../../Components/Footer/Footer'
+import "./AboutUs.Css"
 
 const AboutUs = () => {
   return (
